@@ -4,8 +4,14 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  esri-gatsby
 </h1>
+
+An example of how to use the [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/latest/) in a [Gatsby](https://www.gatsbyjs.com) application via [esri-loader-hooks](https://github.com/tomwayson/esri-loader-hooks).
+
+![screenshot](./screenshot.png)
+
+This was created with the Gatsby CLI to create a new site, specifying the minimal starter. Create your own!
 
 ## 🚀 Quick start
 
