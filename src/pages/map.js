@@ -1,6 +1,6 @@
 import * as React from "react"
 import { setDefaultOptions } from 'esri-loader';
-import { Link } from "gatsby"
+import Layout from "../components/layout"
 import WebMap from "../components/WebMap";
 
 // configure esri-loader to lazy load ArcGIS CSS
@@ -9,11 +9,10 @@ setDefaultOptions({ css: true });
 // markup
 const MapPage = () => {
   return (
-    <main>
+    <Layout>
       <title>Map Page</title>
-      <p><Link to="/">Home</Link></p>
       <WebMap id="6627e1dd5f594160ac60f9dfc411673f" />
-    </main>
+    </Layout>
   )
 }
 
